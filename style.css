@@ -1,0 +1,117 @@
+@import "css/button.css";
+* { margin: 0 auto; }
+
+body { font-family: 'Droid Sans','Arial'; color: #fff; }
+p { color: #fff; }
+a { text-decoration: none; color: #CCC; }
+
+#lead_content { width: 350px; padding: 10% 0 0 0 }
+
+#featured_image { position: absolute; top: 0 }
+#featured_image img { position: fixed;z-index: -999;width: 100%;height: 100% }
+
+label { font-weight: bold; color: #fff; cursor: pointer; }
+.input_btn_tr input[type='submit'] { cursor: pointer; display: block; width: 50%; position: relative; left: 10px; border: none; }
+input[type='text'] {
+    border: 2px solid white;
+    -webkit-box-shadow:
+        inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+        inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+        inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1);
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    width: 99%;
+}
+
+
+#terms-wrap { margin-top: 12px; text-align: center; font-size: 12px; }
+
+#content .btn { margin: 3px; }
+
+#white{
+    padding:20px;
+    background:url(images/form1/form_top.gif);
+    background-size: 100%;
+    border-radius: 10px;
+}
+#white fieldset{
+    margin:0;
+    padding:20px;
+    border:none;
+    float:left;
+    display:inline;
+    width:260px;
+    margin-left:25px;
+}
+#white legend{display:none;}
+#white p{margin:.5em 0;}
+#white label{display:block;color: #000;}
+#white input[type='text']{
+    width:100%;
+    border:1px solid #ddd;
+    background:#fff url(images/form1/form_input.gif) repeat;
+    padding:3px;
+}
+#white textarea{
+    height:125px;
+    overflow:auto;
+}
+#white p.submit{
+    clear:both;
+    /*background:url(images/form1/form_bottom.gif) no-repeat 0 100%;*/
+    padding:0 25px 20px 25px;
+    margin:0;
+    text-align:right;
+    background-size: 100%;
+}
+#white button{
+    width:150px;
+    height:37px;
+    line-height:37px;
+    border:none;
+    background:url(images/form1/form_button.gif) no-repeat 0 0;
+    color:#fff;
+    cursor:pointer;
+    text-align:center;
+}
+
+
+#black{
+    color:#fff;
+    padding: 20px;
+    background:#000 url(images/form2/form_top.gif);
+    border-radius: 5px;;
+    background-size : 100%;
+}
+
+
+#black fieldset{
+    margin:0;
+    padding:0;
+    border:none;
+    border-top:3px solid #000;
+    padding-bottom:1em;
+}
+#black legend{display:none;}
+#black label{display:block;color: #ffffff}
+#black input[type='text']{
+    width:100%;
+    border:1px solid #111;
+    background:#282828 url(images/form2/form_input.gif) repeat-x;
+    padding:5px 3px;
+    color:#fff;
+}
+#black textarea{
+    height:125px;
+    overflow:auto;
+}
+#black p.submit{
+    text-align:right;
+}
+
